@@ -1,0 +1,41 @@
+.navbar {
+  background-color: transparent !important;
+  .nav-item {
+    .nav-link {
+      color: black !important;
+      text-transform: uppercase;
+    }
+    &:not(:last-child) {
+      margin-right: 40px;
+    }
+
+
+  }
+
+  @media (max-width: 991px) {
+    .navbar-collapse {
+      top: 50px;
+      left: 0;
+      right: 0;
+      width: 100%;
+      position: absolute;
+      margin-top: 50px;
+      z-index: 2;
+      
+      li {
+        padding-left: 20px;
+        background-color: white !important;
+      }
+      li a {
+        display: block;
+        padding: 25px 20px;
+        font-weight: bolder;
+        background-color: white !important;
+      }
+    }
+  }
+
+  @media (min-width: 992px) {
+    margin-top: 30px;
+  }
+}
