@@ -4,6 +4,19 @@
   margin: 0;
 }
 
+
+body {
+  height: 100vh;
+  font-family: "Roboto Lt";
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+
 @import "vendor/bootstrap.min.css";
 @import "/assets/fonts/stylesheet.css";
 @import "./varibles";
@@ -12,12 +25,37 @@
 @import "sections/services";
 @import "sections/features";
 @import "sections/statistics";
+@import "sections/work";
+@import "sections/blog";
 
-a {
-  text-decoration: none;
-}
+.head-section {
+  margin-top: 70px;
+  text-align: center;
+  h2{
+    position: relative;
+    padding-bottom: 20px;
+    color: $features;
+    font-size: 3.125rem;
+    font-weight: bolder;
+    &::after{
+      content: "";
+      position: absolute;
+      bottom: -3px;
+      right: 50%;
+      transform: translateX(50%);
+      width: 100px;
+      height: 3px;
+      background-color: var(--bs-primary);
+    }
+  }
+  p{
+    margin-top: 30px;
+    color: $gray;
+  }
 
-body {
-  height: 100vh;
-  font-family: "Roboto Lt";
+  @media (max-width: 991px) {
+    p{
+      display: none;
+    }
+  }
 }

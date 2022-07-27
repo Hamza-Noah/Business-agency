@@ -59,6 +59,7 @@
       margin-top: 20px !important;
       height: 100px;
       img {
+        max-height: 100%;
         opacity: 0.25;
         filter: hue-rotate(2);
       }

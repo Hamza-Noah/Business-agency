@@ -1,0 +1,19 @@
+.blog {
+  .owl-carousel .owl-item .user {
+    .d-flex{
+        justify-content: space-between;
+    }
+    display: flex;
+    align-items: center;
+
+
+    img {
+      width: 40px;
+    }
+  }
+
+  .card {
+    border: none;
+    background-color: transparent;
+  }
+}

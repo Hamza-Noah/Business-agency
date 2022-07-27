@@ -24,23 +24,43 @@ $(document).ready(function () {
 });
 
 // Incrementing
-let nums = document.querySelectorAll(".num");
-let section = document.querySelector(".statistics");
-let started = false; // Function Started ? No
 
+let nums = document.querySelectorAll(".num .number");
+let section = document.getElementById("section");
+let started = false;
 
-window.onscroll = function () {
-  nums.forEach((num) => {
-    startCount(num);
-  });
-};
-
-function startCount(num) {
-  let goal = num.dataset.goal;
-  let count = setInterval(() => {
-    num.textContent++;
-    if (num.textContent == goal) {
-      clearInterval(count);
+function StartCount(el) {
+  let goal = el.getAttribute("data-goals");
+  let interval = setInterval(() => {
+    el.textContent++;
+    if (el.textContent == goal) {
+      clearInterval(interval);
     }
-  }, 2000 / goal);
+  }, 3000 / goal);
 }
+window.addEventListener("scroll", function () {
+  if (window.scrollY > section.offsetTop - 50) {
+    if (!started) {
+      nums.forEach((el) => {
+        StartCount(el);
+      });
+    }
+  }
+});
+
+$("#blog-carousel").owlCarousel({
+  loop: true,
+  margin: 10,
+  nav: true,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    600: {
+      items: 2,
+    },
+    1000: {
+      items: 3,
+    },
+  },
+});
