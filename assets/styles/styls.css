@@ -432,19 +432,78 @@ a {
   }
 }
 
+.blog .card {
+  border: none;
+  background-color: white;
+  margin-left: 20px;
+  border-radius: 0px 0px 10px 10px;
+}
+.blog .card .info {
+  padding: 20px;
+  border-bottom: 1px #747F92 solid;
+}
+.blog .d-flex {
+  padding-right: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+.blog .d-flex .user {
+  margin: 15px 0;
+}
+.blog .d-flex .time {
+  display: flex;
+  color: #747F92;
+}
+.blog .d-flex .time p {
+  margin: 0;
+}
+.blog .d-flex .time i {
+  padding-right: 5px;
+  font-size: 1.5rem;
+}
+.blog .d-flex + p {
+  color: #747F92;
+  font-size: 0.875rem;
+}
+.blog .reacts {
+  display: flex;
+  padding: 25px 20px;
+  border-radius: 0px 0px 10px 10px;
+  color: #454f66;
+}
+.blog .reacts div {
+  align-items: center;
+  display: flex;
+  margin-right: 10px;
+}
+.blog .reacts i {
+  margin-right: 5px;
+}
+.blog .reacts p {
+  margin: 0;
+}
 .blog .owl-carousel .owl-item .user {
   display: flex;
   align-items: center;
 }
-.blog .owl-carousel .owl-item .user .d-flex {
-  justify-content: space-between;
-}
 .blog .owl-carousel .owl-item .user img {
   width: 40px;
 }
-.blog .card {
+.blog .owl-carousel .owl-item img {
+  width: -webkit-fit-content !important;
+  width: -moz-fit-content !important;
+  width: fit-content !important;
+  display: inline !important;
+}
+.blog button {
+  width: 178px;
+  height: 50px;
+  margin-top: 67px;
+  border-radius: 183px;
   border: none;
-  background-color: transparent;
+  background-color: var(--bs-primary);
+  color: #f5f5f5;
+  font-weight: bolder;
 }
 
 .head-section {

@@ -25,28 +25,32 @@ $(document).ready(function () {
 
 // Incrementing
 
-let nums = document.querySelectorAll(".num .number");
-let section = document.getElementById("section");
+let nums = document.querySelectorAll(".num");
+let section = document.querySelector(".statistics");
 let started = false;
 
-function StartCount(el) {
-  let goal = el.getAttribute("data-goals");
+
+window.onscroll = function () {
+  if (window.scrollY >= section.offsetTop) {
+    if (!started) {
+      nums.forEach((num) => startCount(num));
+    }
+    started = true;
+  }
+};
+
+function startCount(el) {
+  let goal = +el.dataset.goal;
   let interval = setInterval(() => {
     el.textContent++;
     if (el.textContent == goal) {
+      console.log(goal);
       clearInterval(interval);
     }
-  }, 3000 / goal);
+  }, 300 / goal);
 }
-window.addEventListener("scroll", function () {
-  if (window.scrollY > section.offsetTop - 50) {
-    if (!started) {
-      nums.forEach((el) => {
-        StartCount(el);
-      });
-    }
-  }
-});
+
+
 
 $("#blog-carousel").owlCarousel({
   loop: true,
