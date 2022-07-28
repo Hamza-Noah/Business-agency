@@ -1,5 +1,5 @@
 .services {
-  padding-top: 144px  ;
+  padding-top: 144px;
 
   .service {
     padding: 30px;
@@ -90,9 +90,18 @@
 }
 
 .contact {
+  position: relative;
   height: 300px;
   margin-top: 180px;
   background-image: linear-gradient(264deg, #1b8cfd 0%, #2fc4fc 100%);
+  &::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/SVG/banner.svg);
+  }
+
   button {
     padding: 15px 30px;
     color: var(--bs-primary);

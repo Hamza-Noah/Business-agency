@@ -54,13 +54,24 @@
   }
 
   .tab.tab-3 {
-    .img-1 {
-      flex-direction: calc(100% / 2) !important;
-
-      img {
-        height: auto !important;
-      }
+    .img-1,
+    .wraper {
+      width: calc(100% / 2) !important;
     }
+
+    .img-1 {
+      height: 500px;
+      overflow: hidden;
+    }
+
+    .img-1 img{
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+
+  .tab.tab-4{
+
   }
 
   button {

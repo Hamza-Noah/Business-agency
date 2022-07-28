@@ -27,8 +27,10 @@ $(document).ready(function () {
 
 let nums = document.querySelectorAll(".num");
 let section = document.querySelector(".statistics");
+let plus = document.querySelectorAll(".num .plus");
 let started = false;
 
+console.log(plus);
 
 window.onscroll = function () {
   if (window.scrollY >= section.offsetTop) {
@@ -44,24 +46,26 @@ function startCount(el) {
   let interval = setInterval(() => {
     el.textContent++;
     if (el.textContent == goal) {
-      console.log(goal);
       clearInterval(interval);
+      plus.textContent += "+";
     }
-  }, 300 / goal);
+  }, 100 / goal);
 }
-
-
 
 $("#blog-carousel").owlCarousel({
   loop: true,
   margin: 10,
-  nav: true,
+  nav: false,
+  dots: false,
+
   responsive: {
     0: {
       items: 1,
+      stagePadding: 50,
     },
     600: {
       items: 2,
+      stagePadding: 50,
     },
     1000: {
       items: 3,
