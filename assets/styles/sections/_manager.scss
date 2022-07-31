@@ -1,4 +1,26 @@
-.manager{
-    padding: 129px 0;
-    background-image: url("../images/manager-section.png");
+.manager {
+  padding: 129px 0;
+  background-image: url("../images/manager-section.png");
+  background-repeat: no-repeat;
+  text-align: center;
+
+  .ceo {
+    width: fit-content;
+  }
+
+  .owl-theme .owl-dots .owl-dot span {
+    background-color: white !important;
+  }
+
+  .owl-theme {
+    p {
+      margin-top: 10px;
+      margin-bottom: 50px;
+      color: white !important;
+    }
+  }
+
+  .owl-theme .owl-dots .owl-dot.active span {
+    background-color: var(--bs-primary) !important;
+  }
 }

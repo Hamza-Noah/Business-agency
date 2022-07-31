@@ -5,6 +5,11 @@
       color: black !important;
       text-transform: uppercase;
     }
+
+    .nav-link.active{
+      color: var(--bs-primary) !important;
+    }
+
     &:not(:last-child) {
       margin-right: 40px;
     }

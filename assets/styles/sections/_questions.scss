@@ -1,0 +1,42 @@
+.questions {
+  padding-bottom: 82px;
+  // Needs Editing
+  margin-top: -70px;
+
+  .head-section {
+    padding-top: 70px;
+  }
+  .accordion {
+    margin-top: 45px;
+  }
+
+  .accordion-button {
+    border-radius: 20px;
+  }
+
+  .accordion-item {
+    padding: 10px 0 !important;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 20px;
+    background: white;
+    box-shadow: 0px 5px 15px #0000001a;
+
+    button {
+      font-size: 1.25rem;
+    }
+
+    p {
+      color: #747f92;
+    }
+  }
+
+  :focus {
+    outline: 0 !important;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+  }
+
+  .accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+  }
+}

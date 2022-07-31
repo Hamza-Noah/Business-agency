@@ -55,14 +55,33 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 30px 0;
+      height: 92px;
+      padding: 50px 0 80px 0;
       margin-top: 20px !important;
-      height: 100px;
       img {
-        max-height: 100%;
+        display: block;
         opacity: 0.25;
-        filter: hue-rotate(2);
       }
+
+    }
+  
+    .owl-item:first-child img{
+     width: 249px;
+    }
+    .owl-item:nth-child(2) img{
+     width: 206px;
+    }
+    .owl-item:nth-child(3) img{
+     width: 201px;
+    }
+    .owl-item:nth-child(4) img{
+     width: 179px;
+    }
+    .owl-item:nth-child(2) img{
+     width: 250px;
+    }
+    .owl-item:last-child img{
+     width: 214px;
     }
   }
 }

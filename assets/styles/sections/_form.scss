@@ -1,0 +1,35 @@
+.form {
+  padding-bottom: 74px;
+  form {
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    margin-top: 40px;
+    label {
+      display: block;
+      margin-bottom: 7px;
+      color: $features;
+    }
+
+    input,
+    textarea {
+      border-radius: 6px;
+      box-shadow: 0px 3px 8px #0000001a;
+    }
+
+    textarea {
+      resize: none;
+    }
+
+    button {
+      width: 178px;
+      height: 50px;
+      border-radius: 183px;
+      border: none;
+      margin-top: 20px;
+      background-color: var(--bs-primary);
+      color: white;
+    }
+  }
+}

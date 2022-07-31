@@ -17,7 +17,29 @@ a {
 
 
 @import "vendor/bootstrap.min.css";
-@import "/assets/fonts/stylesheet.css";
+// @import "/assets/fonts/stylesheet.css";
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Light.woff2') format('woff2'),
+      url('../fonts/Roboto-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto Lt';
+  src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
+      url('../fonts/Roboto-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
 @import "./varibles";
 @import "sections/navbar";
 @import "sections/landing";
@@ -27,16 +49,22 @@ a {
 @import "sections/work";
 @import "sections/blog";
 @import "sections/manager";
+@import "sections/questions";
+@import "sections/form";
+@import "sections/footer";
 
 .head-section {
-  margin-top: 70px;
+  // margin-top: 70px;
   text-align: center;
   h2{
     position: relative;
     padding-bottom: 20px;
     color: $features;
-    font-size: 3.125rem;
+    font-size: 2.5rem;
     font-weight: bolder;
+    span{
+      color: var(--bs-primary);
+    }
     &::after{
       content: "";
       position: absolute;

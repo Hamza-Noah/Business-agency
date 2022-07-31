@@ -1,5 +1,4 @@
 @import "vendor/bootstrap.min.css";
-@import "/assets/fonts/stylesheet.css";
 * {
   box-sizing: border-box;
   padding: 0;
@@ -14,12 +13,29 @@ a {
   text-decoration: none;
 }
 
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Light.woff2") format("woff2"), url("../fonts/Roboto-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto Lt";
+  src: url("../fonts/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
 .navbar {
   background-color: transparent !important;
 }
 .navbar .nav-item .nav-link {
   color: black !important;
   text-transform: uppercase;
+}
+.navbar .nav-item .nav-link.active {
+  color: var(--bs-primary) !important;
 }
 .navbar .nav-item:not(:last-child) {
   margin-right: 40px;
@@ -103,14 +119,31 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px 0;
+  height: 92px;
+  padding: 50px 0 80px 0;
   margin-top: 20px !important;
-  height: 100px;
 }
 .brands .owl-carousel .item img {
-  max-height: 100%;
+  display: block;
   opacity: 0.25;
-  filter: hue-rotate(2);
+}
+.brands .owl-carousel .owl-item:first-child img {
+  width: 249px;
+}
+.brands .owl-carousel .owl-item:nth-child(2) img {
+  width: 206px;
+}
+.brands .owl-carousel .owl-item:nth-child(3) img {
+  width: 201px;
+}
+.brands .owl-carousel .owl-item:nth-child(4) img {
+  width: 179px;
+}
+.brands .owl-carousel .owl-item:nth-child(2) img {
+  width: 250px;
+}
+.brands .owl-carousel .owl-item:last-child img {
+  width: 214px;
 }
 
 @media (max-width: 991px) {
@@ -185,6 +218,9 @@ a {
 }
 
 @media (max-width: 991px) {
+  .services .container {
+    padding: 0 30px;
+  }
   .services .container > .row {
     flex-direction: column-reverse;
   }
@@ -192,7 +228,7 @@ a {
     justify-content: space-between;
   }
   .services .service h3 {
-    font-size: 1.2rem;
+    font-size: 1.125rem;
   }
   .services .service p {
     display: none;
@@ -228,6 +264,11 @@ a {
   color: var(--bs-primary);
   border: none;
   border-radius: 25px;
+}
+@media (max-width: 991px) {
+  .contact {
+    margin-top: 90px;
+  }
 }
 
 .features {
@@ -320,6 +361,7 @@ a {
 }
 
 .work {
+  margin-top: 100px;
   margin-bottom: 140px;
 }
 .work .tabs {
@@ -375,6 +417,34 @@ a {
   width: 100%;
   -o-object-fit: contain;
      object-fit: contain;
+}
+.work .tab-4 {
+  display: flex;
+  flex-direction: column !important;
+}
+.work .tab-4 .img-1 {
+  width: 100%;
+}
+.work .tab-4 .img-1 img {
+  width: 100% !important;
+  height: 205px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.work .tab-4 .row-1 .img-2,
+.work .tab-4 .row-1 .img-3,
+.work .tab-4 .row-1 .img-4,
+.work .tab-4 .row-1 .img-5 {
+  width: 16.6666666667%;
+}
+.work .tab-4 .row-1 .img-6 {
+  width: 33.3333333333%;
+}
+.work .tab-4 .row-2 .img {
+  width: 16.6666666667%;
+}
+.work .row {
+  display: flex;
 }
 .work button {
   margin-right: 15px !important;
@@ -457,7 +527,6 @@ a {
 .blog .card {
   border: none;
   background-color: white;
-  margin-left: 20px;
   border-radius: 0px 0px 10px 10px;
   box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.0784313725);
 }
@@ -537,18 +606,155 @@ a {
 .manager {
   padding: 129px 0;
   background-image: url("../images/manager-section.png");
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.manager .ceo {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.manager .owl-theme .owl-dots .owl-dot span {
+  background-color: white !important;
+}
+.manager .owl-theme p {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  color: white !important;
+}
+.manager .owl-theme .owl-dots .owl-dot.active span {
+  background-color: var(--bs-primary) !important;
+}
+
+.questions {
+  padding-bottom: 82px;
+  margin-top: -70px;
+}
+.questions .head-section {
+  padding-top: 70px;
+}
+.questions .accordion {
+  margin-top: 45px;
+}
+.questions .accordion-button {
+  border-radius: 20px;
+}
+.questions .accordion-item {
+  padding: 10px 0 !important;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 20px;
+  background: white;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1019607843);
+}
+.questions .accordion-item button {
+  font-size: 1.25rem;
+}
+.questions .accordion-item p {
+  color: #747f92;
+}
+.questions :focus {
+  outline: 0 !important;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+.questions .accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+}
+
+.form {
+  padding-bottom: 74px;
+}
+.form form {
+  margin-top: 40px;
+}
+.form form .form-group {
+  margin-bottom: 20px;
+}
+.form form label {
+  display: block;
+  margin-bottom: 7px;
+  color: #1E2F4F;
+}
+.form form input,
+.form form textarea {
+  border-radius: 6px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1019607843);
+}
+.form form textarea {
+  resize: none;
+}
+.form form button {
+  width: 178px;
+  height: 50px;
+  border-radius: 183px;
+  border: none;
+  margin-top: 20px;
+  background-color: var(--bs-primary);
+  color: white;
+}
+
+footer {
+  background-color: #1e2f4f;
+  padding-top: 50px;
+}
+footer .row {
+  margin-bottom: 50px;
+}
+footer h3 {
+  color: white;
+  margin-bottom: 39px;
+}
+footer .info h2 {
+  color: white;
+  margin-bottom: 39px;
+}
+footer .info p {
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+footer .info li a {
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  color: #1e2f4f;
+  background-color: #747f92;
+}
+footer li a {
+  display: block;
+  color: #adb6c4 !important;
+  margin-bottom: 13px;
+}
+footer .links-contact a {
+  padding-left: 25px;
+  position: relative;
+}
+footer .links-contact i {
+  position: absolute;
+  left: 0px;
+}
+footer .rights {
+  padding: 30px 0;
+  border-top: 1px #adb6c4 solid;
+  color: #adb6c4;
 }
 
 .head-section {
-  margin-top: 70px;
   text-align: center;
 }
 .head-section h2 {
   position: relative;
   padding-bottom: 20px;
   color: #1E2F4F;
-  font-size: 3.125rem;
+  font-size: 2.5rem;
   font-weight: bolder;
+}
+.head-section h2 span {
+  color: var(--bs-primary);
 }
 .head-section h2::after {
   content: "";
