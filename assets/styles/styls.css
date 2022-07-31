@@ -270,7 +270,7 @@ a {
   background-image: url(../images/SVG/banner.svg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0 0;
+  background-position: center;
 }
 .contact h2 {
   font-size: 3.125rem;
@@ -717,7 +717,7 @@ footer .container {
   bottom: 0;
   right: 0;
   left: 0;
-  background-position: 0 -30px;
+  background-position: center;
   background-image: url("../images/SVG/footer.svg");
   background-size: contain;
 }
