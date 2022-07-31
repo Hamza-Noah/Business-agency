@@ -1,1 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1962" height="674.379" viewBox="0 0 1962 674.379"><defs><clipPath id="a"/></defs><g transform="translate(25.015 -2521.375)" clip-path="url(#a)"><path d="M123.178,167.758,371.889,0,370,163.689a95,95,0,0,1-95,95H0Z" transform="translate(136.356 2521.375) rotate(34)" fill="#fff" opacity="0.12"/><path d="M0,0H207a95,95,0,0,1,95,95V198L109.536,71.134Z" transform="matrix(0.839, -0.545, 0.545, 0.839, 1575.868, 3029.697)" fill="#fff" opacity="0.1"/><g transform="translate(52.575 2923.514) rotate(43)" opacity="0.2"><circle cx="5.688" cy="5.688" r="5.688" fill="#fff"/><circle cx="5.688" cy="5.688" r="5.688" transform="translate(34.13)" fill="#fff"/><circle cx="5.688" cy="5.688" r="5.688" transform="translate(68.261)" fill="#fff"/><circle cx="5.688" cy="5.688" r="5.688" transform="translate(102.391)" fill="#fff"/><circle cx="5.688" cy="5.688" r="5.688" transform="translate(0 34.13)" fill="#fff"/><circle cx="5.688" cy="5.688" r="5.688" transform="translate(34.13 34.13)" fill="#fff"/><circle cx="5.688" cy="5.688" r="5.688" transform="translate(68.261 34.13)" fill="#fff"/><circle cx="5.688" cy="5.688" r="5.688" transform="translate(102.391 34.13)" fill="#fff"/><circle cx="5.688" cy="5.688" r="5.688" transform="translate(0 68.261)" fill="#fff"/><circle cx="5.688" cy="5.688" r="5.688" transform="translate(34.13 68.261)" fill="#fff"/><circle cx="5.688" cy="5.688" r="5.688" transform="translate(68.261 68.261)" fill="#fff"/><circle cx="5.688" cy="5.688" r="5.688" transform="translate(102.391 68.261)" fill="#fff"/><circle cx="5.688" cy="5.688" r="5.688" transform="translate(0 102.391)" fill="#fff"/><circle cx="5.688" cy="5.688" r="5.688" transform="translate(34.13 102.391)" fill="#fff"/><circle cx="5.688" cy="5.688" r="5.688" transform="translate(68.261 102.391)" fill="#fff"/><circle cx="5.688" cy="5.688" r="5.688" transform="translate(102.391 102.391)" fill="#fff"/></g><g transform="translate(1799.383 2678.514) rotate(43)" opacity="0.2"><circle cx="5.688" cy="5.688" r="5.688" fill="#fff"/><circle cx="5.688" cy="5.688" r="5.688" transform="translate(34.13 0)" fill="#fff"/><circle cx="5.688" cy="5.688" r="5.688" transform="translate(68.261 0)" fill="#fff"/><circle cx="5.688" cy="5.688" r="5.688" transform="translate(102.391 0)" fill="#fff"/><circle cx="5.688" cy="5.688" r="5.688" transform="translate(0 34.13)" fill="#fff"/><circle cx="5.688" cy="5.688" r="5.688" transform="translate(34.13 34.13)" fill="#fff"/><circle cx="5.688" cy="5.688" r="5.688" transform="translate(68.261 34.13)" fill="#fff"/><circle cx="5.688" cy="5.688" r="5.688" transform="translate(102.391 34.13)" fill="#fff"/><circle cx="5.688" cy="5.688" r="5.688" transform="translate(0 68.261)" fill="#fff"/><circle cx="5.688" cy="5.688" r="5.688" transform="translate(34.13 68.261)" fill="#fff"/><circle cx="5.688" cy="5.688" r="5.688" transform="translate(68.261 68.261)" fill="#fff"/><circle cx="5.688" cy="5.688" r="5.688" transform="translate(102.391 68.261)" fill="#fff"/><circle cx="5.688" cy="5.688" r="5.688" transform="translate(0 102.391)" fill="#fff"/><circle cx="5.688" cy="5.688" r="5.688" transform="translate(34.13 102.391)" fill="#fff"/><circle cx="5.688" cy="5.688" r="5.688" transform="translate(68.261 102.391)" fill="#fff"/><circle cx="5.688" cy="5.688" r="5.688" transform="translate(102.391 102.391)" fill="#fff"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1962" height="674.379" viewBox="0 0 1962 674.379">
+  <g id="Group_1448" data-name="Group 1448" transform="translate(25.015 -2521.375)">
+    <path id="Path_216" data-name="Path 216" d="M123.178,167.758,371.889,0,370,163.689a95,95,0,0,1-95,95H0Z" transform="translate(136.356 2521.375) rotate(34)" fill="#fff" opacity="0.12"/>
+    <path id="Path_215" data-name="Path 215" d="M0,0H207a95,95,0,0,1,95,95V198L109.536,71.134Z" transform="matrix(0.839, -0.545, 0.545, 0.839, 1575.868, 3029.697)" fill="#fff" opacity="0.1"/>
+    <g id="Point" transform="translate(52.575 2923.514) rotate(43)" opacity="0.2">
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="5.688" cy="5.688" r="5.688" fill="#fff"/>
+      <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="5.688" cy="5.688" r="5.688" transform="translate(34.13)" fill="#fff"/>
+      <circle id="Ellipse_1-3" data-name="Ellipse 1" cx="5.688" cy="5.688" r="5.688" transform="translate(68.261)" fill="#fff"/>
+      <circle id="Ellipse_1-4" data-name="Ellipse 1" cx="5.688" cy="5.688" r="5.688" transform="translate(102.391)" fill="#fff"/>
+      <circle id="Ellipse_1-5" data-name="Ellipse 1" cx="5.688" cy="5.688" r="5.688" transform="translate(0 34.13)" fill="#fff"/>
+      <circle id="Ellipse_1-6" data-name="Ellipse 1" cx="5.688" cy="5.688" r="5.688" transform="translate(34.13 34.13)" fill="#fff"/>
+      <circle id="Ellipse_1-7" data-name="Ellipse 1" cx="5.688" cy="5.688" r="5.688" transform="translate(68.261 34.13)" fill="#fff"/>
+      <circle id="Ellipse_1-8" data-name="Ellipse 1" cx="5.688" cy="5.688" r="5.688" transform="translate(102.391 34.13)" fill="#fff"/>
+      <circle id="Ellipse_1-9" data-name="Ellipse 1" cx="5.688" cy="5.688" r="5.688" transform="translate(0 68.261)" fill="#fff"/>
+      <circle id="Ellipse_1-10" data-name="Ellipse 1" cx="5.688" cy="5.688" r="5.688" transform="translate(34.13 68.261)" fill="#fff"/>
+      <circle id="Ellipse_1-11" data-name="Ellipse 1" cx="5.688" cy="5.688" r="5.688" transform="translate(68.261 68.261)" fill="#fff"/>
+      <circle id="Ellipse_1-12" data-name="Ellipse 1" cx="5.688" cy="5.688" r="5.688" transform="translate(102.391 68.261)" fill="#fff"/>
+      <circle id="Ellipse_1-13" data-name="Ellipse 1" cx="5.688" cy="5.688" r="5.688" transform="translate(0 102.391)" fill="#fff"/>
+      <circle id="Ellipse_1-14" data-name="Ellipse 1" cx="5.688" cy="5.688" r="5.688" transform="translate(34.13 102.391)" fill="#fff"/>
+      <circle id="Ellipse_1-15" data-name="Ellipse 1" cx="5.688" cy="5.688" r="5.688" transform="translate(68.261 102.391)" fill="#fff"/>
+      <circle id="Ellipse_1-16" data-name="Ellipse 1" cx="5.688" cy="5.688" r="5.688" transform="translate(102.391 102.391)" fill="#fff"/>
+    </g>
+    <g id="Point-2" data-name="Point" transform="translate(1799.383 2678.514) rotate(43)" opacity="0.2">
+      <circle id="Ellipse_1-17" data-name="Ellipse 1" cx="5.688" cy="5.688" r="5.688" fill="#fff"/>
+      <circle id="Ellipse_1-18" data-name="Ellipse 1" cx="5.688" cy="5.688" r="5.688" transform="translate(34.13 0)" fill="#fff"/>
+      <circle id="Ellipse_1-19" data-name="Ellipse 1" cx="5.688" cy="5.688" r="5.688" transform="translate(68.261 0)" fill="#fff"/>
+      <circle id="Ellipse_1-20" data-name="Ellipse 1" cx="5.688" cy="5.688" r="5.688" transform="translate(102.391 0)" fill="#fff"/>
+      <circle id="Ellipse_1-21" data-name="Ellipse 1" cx="5.688" cy="5.688" r="5.688" transform="translate(0 34.13)" fill="#fff"/>
+      <circle id="Ellipse_1-22" data-name="Ellipse 1" cx="5.688" cy="5.688" r="5.688" transform="translate(34.13 34.13)" fill="#fff"/>
+      <circle id="Ellipse_1-23" data-name="Ellipse 1" cx="5.688" cy="5.688" r="5.688" transform="translate(68.261 34.13)" fill="#fff"/>
+      <circle id="Ellipse_1-24" data-name="Ellipse 1" cx="5.688" cy="5.688" r="5.688" transform="translate(102.391 34.13)" fill="#fff"/>
+      <circle id="Ellipse_1-25" data-name="Ellipse 1" cx="5.688" cy="5.688" r="5.688" transform="translate(0 68.261)" fill="#fff"/>
+      <circle id="Ellipse_1-26" data-name="Ellipse 1" cx="5.688" cy="5.688" r="5.688" transform="translate(34.13 68.261)" fill="#fff"/>
+      <circle id="Ellipse_1-27" data-name="Ellipse 1" cx="5.688" cy="5.688" r="5.688" transform="translate(68.261 68.261)" fill="#fff"/>
+      <circle id="Ellipse_1-28" data-name="Ellipse 1" cx="5.688" cy="5.688" r="5.688" transform="translate(102.391 68.261)" fill="#fff"/>
+      <circle id="Ellipse_1-29" data-name="Ellipse 1" cx="5.688" cy="5.688" r="5.688" transform="translate(0 102.391)" fill="#fff"/>
+      <circle id="Ellipse_1-30" data-name="Ellipse 1" cx="5.688" cy="5.688" r="5.688" transform="translate(34.13 102.391)" fill="#fff"/>
+      <circle id="Ellipse_1-31" data-name="Ellipse 1" cx="5.688" cy="5.688" r="5.688" transform="translate(68.261 102.391)" fill="#fff"/>
+      <circle id="Ellipse_1-32" data-name="Ellipse 1" cx="5.688" cy="5.688" r="5.688" transform="translate(102.391 102.391)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

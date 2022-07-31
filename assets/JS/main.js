@@ -3,16 +3,18 @@ $(document).ready(function () {
     loop: false,
     margin: 10,
     nav: false,
-    dots: false,
+    dots: false, 
 
     responsive: {
       0: {
         items: 1,
         autoplay: true,
+        nav: true
       },
       768: {
         items: 2,
         autoplay: true,
+        nav: true 
       },
       1000: {
         items: 5,
@@ -82,6 +84,7 @@ window.onscroll = function () {
 function startCount(el) {
   let goal = +el.dataset.goal;
   let interval = setInterval(() => {
+
     el.textContent++;
     if (el.textContent == goal) {
       clearInterval(interval);

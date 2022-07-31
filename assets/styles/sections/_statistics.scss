@@ -50,3 +50,10 @@
     font-size: 1.25rem;
   }
 }
+
+.statistics {
+  @media (max-width: 991px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

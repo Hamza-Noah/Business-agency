@@ -106,9 +106,20 @@
   &::after {
     content: "";
     position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
     height: 100%;
     width: 100%;
     background-image: url(../images/SVG/banner.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+
+  h2{
+    font-size: 3.125rem;
   }
 
   button {
