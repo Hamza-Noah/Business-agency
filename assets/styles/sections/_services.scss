@@ -4,6 +4,7 @@
   .service {
     padding: 30px;
     margin-bottom: 30px;
+    margin-right: 30px;
     border-radius: 5px;
     text-align: center;
     box-shadow: 0px 6px 20px #1b8cfd14;
@@ -25,7 +26,8 @@
   .info {
     padding-top: 51px;
 
-    p:first-child {
+    p:first-child,
+    p:nth-child(2) {
       color: var(--bs-primary);
       font-weight: bolder;
     }
@@ -67,6 +69,10 @@
       .row {
         justify-content: space-between;
       }
+    }
+
+    .service {
+      padding: 20px;
     }
 
     .service h3 {

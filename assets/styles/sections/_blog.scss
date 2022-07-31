@@ -6,6 +6,10 @@
     margin-bottom: 50px;
   }
 
+  .owl-item {
+    padding: 20px 10px;
+  }
+
   .card {
     border: none;
     background-color: white;
@@ -87,6 +91,13 @@
     align-items: center;
     img {
       width: 40px;
+    }
+  }
+
+  .item {
+    padding: 20px 0;
+    img {
+      margin: auto !important;
     }
   }
 

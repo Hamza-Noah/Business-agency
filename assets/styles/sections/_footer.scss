@@ -8,6 +8,7 @@ footer {
   h3 {
     color: white;
     margin-bottom: 39px;
+    font-size: 1.25rem;
   }
 
   .info {
@@ -30,8 +31,13 @@ footer {
       height: 30px;
       border-radius: 50%;
       font-size: 1.2rem;
-      color: #1e2f4f;
       background-color: #747f92;
+      color: #1e2f4f ;
+    }
+
+    li a i{
+      color: #1e2f4f ;
+
     }
   }
 
@@ -39,6 +45,10 @@ footer {
     display: block;
     color: #adb6c4 !important;
     margin-bottom: 13px;
+  }
+
+  li:hover a {
+    color: white !important;
   }
 
   .links-contact a {

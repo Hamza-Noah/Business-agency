@@ -68,8 +68,6 @@ let section = document.querySelector(".statistics");
 let plus = document.querySelectorAll(".num .plus");
 let started = false;
 
-
-
 window.onscroll = function () {
   console.log("window.scrollY", window.scrollY);
   console.log("section.offsetTop", section.offsetTop);
@@ -101,8 +99,16 @@ let emailMessage = document.querySelector("#email-message");
 
 emailInput.addEventListener("blur", function (e) {
   if (regex.test(this.value)) {
-    console.log(211);
   } else {
     emailMessage.style.display = "block";
   }
+});
+
+emailInput.addEventListener("input", function (e) {
+  emailMessage.style.display = "none";
+});
+
+
+document.getElementById("form").addEventListener("click", function(event){
+  event.preventDefault()
 });

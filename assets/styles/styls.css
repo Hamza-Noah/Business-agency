@@ -49,6 +49,7 @@ a {
     position: absolute;
     margin-top: 50px;
     z-index: 2;
+    box-shadow: 0px 6px 20px rgba(27, 140, 253, 0.0784313725);
   }
   .navbar .navbar-collapse li {
     padding-left: 20px;
@@ -173,6 +174,7 @@ a {
 .services .service {
   padding: 30px;
   margin-bottom: 30px;
+  margin-right: 30px;
   border-radius: 5px;
   text-align: center;
   box-shadow: 0px 6px 20px rgba(27, 140, 253, 0.0784313725);
@@ -192,7 +194,8 @@ a {
 .services .info {
   padding-top: 51px;
 }
-.services .info p:first-child {
+.services .info p:first-child,
+.services .info p:nth-child(2) {
   color: var(--bs-primary);
   font-weight: bolder;
 }
@@ -226,6 +229,9 @@ a {
   }
   .services .container > .row .row {
     justify-content: space-between;
+  }
+  .services .service {
+    padding: 20px;
   }
   .services .service h3 {
     font-size: 1.125rem;
@@ -283,6 +289,7 @@ a {
   align-items: center;
   width: 100px;
   height: 100px;
+  flex: 0 0 auto;
   border-radius: 50%;
   border: 4px solid #dde3ec;
 }
@@ -315,7 +322,6 @@ a {
   }
   .features i {
     margin-right: 30px;
-    width: 160px !important;
   }
 }
 
@@ -352,6 +358,7 @@ a {
   background-color: rgba(113, 110, 241, 0.2);
 }
 .statistics .num {
+  font-weight: bolder;
   font-size: 3.125rem;
   color: #1E2F4F;
 }
@@ -405,42 +412,45 @@ a {
 .work .tab-2 .img-1 img {
   height: 100%;
 }
-.work .tab.tab-3 .img-1,
-.work .tab.tab-3 .wraper {
+.work .tab-3 .tab .img-1,
+.work .tab-3 .tab .wraper {
   width: 50% !important;
 }
-.work .tab.tab-3 .img-1 {
+.work .tab-3 .tab .img-1 {
   height: 500px;
   overflow: hidden;
 }
-.work .tab.tab-3 .img-1 img {
+.work .tab-3 .tab .img-1 img {
   width: 100%;
   -o-object-fit: contain;
      object-fit: contain;
 }
-.work .tab-4 {
+.work .tab-2 .tab {
+  flex-direction: row-reverse;
+}
+.work .tab-4 .tab {
   display: flex;
   flex-direction: column !important;
 }
-.work .tab-4 .img-1 {
+.work .tab-4 .tab .img-1 {
   width: 100%;
 }
-.work .tab-4 .img-1 img {
+.work .tab-4 .tab .img-1 img {
   width: 100% !important;
   height: 205px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.work .tab-4 .row-1 .img-2,
-.work .tab-4 .row-1 .img-3,
-.work .tab-4 .row-1 .img-4,
-.work .tab-4 .row-1 .img-5 {
+.work .tab-4 .tab .row-1 .img-2,
+.work .tab-4 .tab .row-1 .img-3,
+.work .tab-4 .tab .row-1 .img-4,
+.work .tab-4 .tab .row-1 .img-5 {
   width: 16.6666666667%;
 }
-.work .tab-4 .row-1 .img-6 {
+.work .tab-4 .tab .row-1 .img-6 {
   width: 33.3333333333%;
 }
-.work .tab-4 .row-2 .img {
+.work .tab-4 .tab .row-2 .img {
   width: 16.6666666667%;
 }
 .work .row {
@@ -524,6 +534,9 @@ a {
   padding-top: 70px !important;
   margin-bottom: 50px;
 }
+.blog .owl-item {
+  padding: 20px 10px;
+}
 .blog .card {
   border: none;
   background-color: white;
@@ -592,6 +605,12 @@ a {
 .blog .owl-carousel .owl-item .user img {
   width: 40px;
 }
+.blog .item {
+  padding: 20px 0;
+}
+.blog .item img {
+  margin: auto !important;
+}
 .blog button {
   width: 178px;
   height: 50px;
@@ -621,6 +640,10 @@ a {
   margin-top: 10px;
   margin-bottom: 50px;
   color: white !important;
+}
+.manager .owl-item img {
+  width: 150px;
+  margin: auto;
 }
 .manager .owl-theme .owl-dots .owl-dot.active span {
   background-color: var(--bs-primary) !important;
@@ -663,8 +686,6 @@ a {
 
 .form {
   padding-bottom: 74px;
-}
-.form form {
   margin-top: 40px;
 }
 .form form .form-group {
@@ -703,6 +724,7 @@ footer .row {
 footer h3 {
   color: white;
   margin-bottom: 39px;
+  font-size: 1.25rem;
 }
 footer .info h2 {
   color: white;
@@ -721,13 +743,19 @@ footer .info li a {
   height: 30px;
   border-radius: 50%;
   font-size: 1.2rem;
-  color: #1e2f4f;
   background-color: #747f92;
+  color: #1e2f4f;
+}
+footer .info li a i {
+  color: #1e2f4f;
 }
 footer li a {
   display: block;
   color: #adb6c4 !important;
   margin-bottom: 13px;
+}
+footer li:hover a {
+  color: white !important;
 }
 footer .links-contact a {
   padding-left: 25px;
@@ -750,7 +778,7 @@ footer .rights {
   position: relative;
   padding-bottom: 20px;
   color: #1E2F4F;
-  font-size: 2.5rem;
+  font-size: 3.125rem;
   font-weight: bolder;
 }
 .head-section h2 span {

@@ -54,7 +54,7 @@
     }
   }
 
-  .tab.tab-3 {
+  .tab-3 .tab {
     .img-1,
     .wraper {
       width: calc(100% / 2) !important;
@@ -71,7 +71,11 @@
     }
   }
 
-  .tab-4 {
+  .tab-2 .tab {
+    flex-direction: row-reverse;
+  }
+
+  .tab-4 .tab {
     display: flex;
     flex-direction: column !important;
 

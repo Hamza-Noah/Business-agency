@@ -135,7 +135,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-6 p-0">
                                 <div class="service active">
                                     <i><img src="assets/images/SVG/service1.svg" alt=""></i>
                                     <h3>Development</h3>
@@ -184,7 +184,8 @@
                     </div>
                     <div class="col-lg-6 p-0">
                         <div class="info">
-                            <p class="text-uppercase">Development Services</p>
+                            <p class="text-uppercase d-none d-lg-block">Development Services</p>
+                            <p class="text-uppercase d-lg-none">Services</p>
                             <h2>
                                 We Provide Awesome Services to our Customers
                             </h2>
@@ -256,14 +257,14 @@
                         <i><img src="assets/images/SVG/stat1.svg" alt=""></i>
                         <div>
                             <div class="num plus" data-goal="4500">0</div>
-                            <p>Complete Project</p>
+                            <p>Award Winner</p>
                         </div>
                     </li>
                     <li class="col-md-6 col-lg-3">
                         <i><img src="assets/images/SVG/stat2.svg" alt=""></i>
                         <div>
                             <div class="num" data-goal="110">0</div>
-                            <p>Complete Project</p>
+                            <p>Available Country</p>
                         </div>
                     </li>
                     <li class="col-md-6 col-lg-3">
@@ -277,7 +278,7 @@
                         <i><img src="assets/images/SVG/stat4.svg" alt=""></i>
                         <div>
                             <div class="num plus" data-goal="4000">0</div>
-                            <p>Complete Project</p>
+                            <p>User Worldwide</p>
                         </div>
                     </li>
                 </ul>
@@ -364,8 +365,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                            <div class="tab tab-2 flex-row-reverse">
+                        <div class="tab-pane fade tab-2" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <div class="tab">
                                 <div class="img img-1">
                                     <img class="img-fluid" src="assets/images/work1.jpg" alt="">
                                 </div>
@@ -412,8 +413,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="profile-tab">
-                            <div class="tab tab-3">
+                        <div class="tab-pane fade tab-3" id="contact" role="tabpanel" aria-labelledby="profile-tab">
+                            <div class="tab">
                                 <div class="img img-1">
                                     <img class="img-fluid" src="assets/images/work1.jpg" alt="">
                                 </div>
@@ -460,47 +461,54 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="dashboard" role="tabpanel" aria-labelledby="profile-tab">
-                            <div class="tab tab-4">
+                        <div class="tab-pane fade  tab-4" id="dashboard" role="tabpanel" aria-labelledby="profile-tab">
+                            <div class="tab">
                                 <div class="img img-1">
-                                    <img class=" img-fluid" src="assets/images/work1.jpg" alt="">
+                                    <picture>
+                                        <source media="(min-width:650px)" srcset="">
+                                        <source media="(min-width:465px)" srcset="">
+                                        <img src="assets/images/work1.jpg" alt="Flowers" style="width:auto;">
+                                    </picture>
                                 </div>
-                                <div class="row row-1">
-                                    <div class="img img-2">
-                                        <img class="img-fluid" src="assets/images/work2.jpg" alt="">
+                                <div class="wraper">
+                                    <div class="row row-1">
+                                        <div class="img img-2">
+                                            <img class="img-fluid" src="assets/images/work2.jpg" alt="">
+                                        </div>
+                                        <div class="img img-3">
+                                            <img class="img-fluid" src="assets/images/work3.jpg" alt="">
+                                        </div>
+                                        <div class="img img-4">
+                                            <img class="img-fluid" src="assets/images/work4.jpg" alt="">
+                                        </div>
+                                        <div class="img img-5">
+                                            <img class="img-fluid" src="assets/images/work5.jpg" alt="">
+                                        </div>
                                     </div>
-                                    <div class="img img-3">
-                                        <img class="img-fluid" src="assets/images/work3.jpg" alt="">
+                                    <div class="row row-2">
+                                        <div class="img img-6">
+                                            <img class="img-fluid" src="assets/images/work6.jpg" alt="">
+                                        </div>
+                                        <div class="img img-7">
+                                            <img class="img-fluid" src="assets/images/work7.jpg" alt="">
+                                        </div>
+                                        <div class="img img-8">
+                                            <img class="img-fluid" src="assets/images/work8.jpg" alt="">
+                                        </div>
                                     </div>
-                                    <div class="img img-4">
-                                        <img class="img-fluid" src="assets/images/work4.jpg" alt="">
-                                    </div>
-                                    <div class="img img-5">
-                                        <img class="img-fluid" src="assets/images/work5.jpg" alt="">
-                                    </div>
-                                    <div class="img img-6">
-                                        <img class="img-fluid" src="assets/images/work6.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="row row-2">
-                                    <div class="img img-7">
-                                        <img class="img-fluid" src="assets/images/work7.jpg" alt="">
-                                    </div>
-                                    <div class="img img-8">
-                                        <img class="img-fluid" src="assets/images/work8.jpg" alt="">
-                                    </div>
-
-                                    <div class="img img-9">
-                                        <img class="img-fluid" src="assets/images/work9.jpg" alt="">
-                                    </div>
-                                    <div class="img img-10">
-                                        <img class="img-fluid" src="assets/images/work10.jpg" alt="">
-                                    </div>
-                                    <div class="img img-11">
-                                        <img class="img-fluid" src="assets/images/work11.jpg" alt="">
-                                    </div>
-                                    <div class="img img-12">
-                                        <img class="img-fluid" src="assets/images/work12.jpg" alt="">
+                                    <div class="row row-3">
+                                        <div class="img img-9">
+                                            <img class="img-fluid" src="assets/images/work9.jpg" alt="">
+                                        </div>
+                                        <div class="img img-10">
+                                            <img class="img-fluid" src="assets/images/work10.jpg" alt="">
+                                        </div>
+                                        <div class="img img-11">
+                                            <img class="img-fluid" src="assets/images/work11.jpg" alt="">
+                                        </div>
+                                        <div class="img img-12">
+                                            <img class="img-fluid" src="assets/images/work12.jpg" alt="">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -635,15 +643,15 @@
         <!-- Start Manager -->
         <section class="manager">
             <div class="container">
-                <div class="ceo text-white text-center mx-auto">
-                    <div class="img">
-                        <img width="150px" src="assets/images/manager.png" alt="">
-                    </div>
-                    <h3 class="fw-bolder my-3">Tyrion Lannister</h3>
-                    <p class="fw-light">Ceo, Company</p>
-                </div>
                 <div id="manager-carousel" class="owl-carousel owl-theme">
                     <div class="item">
+                        <div class="ceo text-white text-center mx-auto">
+                            <div class="img">
+                                <img src="assets/images/manager.png" alt="">
+                            </div>
+                            <h3 class="fw-bolder my-3">Tyrion Lannister</h3>
+                            <p class="fw-light">Ceo, Company</p>
+                        </div>
                         <p>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                             been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
@@ -651,6 +659,13 @@
                         </p>
                     </div>
                     <div class="item">
+                        <div class="ceo text-white text-center mx-auto">
+                            <div class="img">
+                                <img src="assets/images/manager.png" alt="">
+                            </div>
+                            <h3 class="fw-bolder my-3">Tyrion Lannister</h3>
+                            <p class="fw-light">Ceo, Company</p>
+                        </div>
                         <p>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                             been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
@@ -658,6 +673,13 @@
                         </p>
                     </div>
                     <div class="item">
+                        <div class="ceo text-white text-center mx-auto">
+                            <div class="img">
+                                <img src="assets/images/manager.png" alt="">
+                            </div>
+                            <h3 class="fw-bolder my-3">Tyrion Lannister</h3>
+                            <p class="fw-light">Ceo, Company</p>
+                        </div>
                         <p>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                             been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
@@ -665,6 +687,13 @@
                         </p>
                     </div>
                     <div class="item">
+                        <div class="ceo text-white text-center mx-auto">
+                            <div class="img">
+                                <img src="assets/images/manager.png" alt="">
+                            </div>
+                            <h3 class="fw-bolder my-3">Tyrion Lannister</h3>
+                            <p class="fw-light">Ceo, Company</p>
+                        </div>
                         <p>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                             been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
@@ -672,6 +701,27 @@
                         </p>
                     </div>
                     <div class="item">
+                        <div class="ceo text-white text-center mx-auto">
+                            <div class="img">
+                                <img src="assets/images/manager.png" alt="">
+                            </div>
+                            <h3 class="fw-bolder my-3">Tyrion Lannister</h3>
+                            <p class="fw-light">Ceo, Company</p>
+                        </div>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book.
+                        </p>
+                    </div>
+                    <div class="item">
+                        <div class="ceo text-white text-center mx-auto">
+                            <div class="img">
+                                <img src="assets/images/manager.png" alt="">
+                            </div>
+                            <h3 class="fw-bolder my-3">Tyrion Lannister</h3>
+                            <p class="fw-light">Ceo, Company</p>
+                        </div>
                         <p>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                             been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
@@ -684,9 +734,10 @@
         <!-- Start Questions -->
         <section class="questions bg-light">
             <div class="container">
-                <div class="head-section col-lg-5 mx-auto">
+                <div class="head-section mx-auto">
                     <h2>Frequently Asked <span>Questions</span></h2>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                    <p class="d-none d-lg-block">It is a long established fact that a reader will be distracted by the
+                        readable content of a page
                         when looking at its layout.</p>
                 </div>
                 <div class="accordion " id="accordionExample">
@@ -788,7 +839,7 @@
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page
                         when looking at its layout.</p>
                 </div>
-                <form action="">
+                <form id="form" action="">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-2"></div>
@@ -802,8 +853,9 @@
                                 <div class="col-lg-6">
                                     <div class="form-group">
                                         <label for="">Email</label>
-                                        <input class="form-control" type="email" name="" id="email">
-                                        <div class="invalid-feedback" id="email-message">Plaese fill out a valid Emalil
+                                        <input class="form-control" required type="email" name="" id="email">
+                                        <div class="invalid-feedback" id="email-message">Plaese fill out a
+                                            valid Emalil
                                         </div>
                                     </div>
                                 </div>
@@ -830,7 +882,6 @@
                     </div>
                 </form>
             </div>
-
         </section>
         <!-- End Form -->
     </main>
@@ -843,7 +894,7 @@
                         <div class="logo">
                             <h2>Logo</h2>
                         </div>
-                        <p>
+                        <p class="d-sm-none d-lg-block">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
                             has
                             been the industry's standard dummy text ever since the 1500s...
@@ -856,8 +907,8 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-2">
-                    <div class="links">
+                <div class="col-lg-2 ">
+                    <div class="links d-none d-lg-block">
                         <h3>
                             Services
                         </h3>
@@ -871,7 +922,7 @@
                     </div>
                 </div>
                 <div class="col-lg-2">
-                    <div class="links">
+                    <div class="links d-none d-lg-block">
                         <h3>
                             Quick Links
                         </h3>
@@ -884,7 +935,7 @@
                     </div>
                 </div>
                 <div class="col-lg-2">
-                    <div class="links">
+                    <div class="links d-none d-lg-block">
                         <h3>
                             Sitemap
                         </h3>
@@ -896,7 +947,7 @@
                 </div>
                 <div class="col-lg-2">
                     <div class="links-contact">
-                        <h3>
+                        <h3 class="d-none d-lg-block">
                             Contact
                         </h3>
                         <ul class="list-unstyled">

@@ -1,14 +1,15 @@
 .features {
   padding: 100px 0 150px;
-li{
+  li {
     margin-bottom: 50px;
-}
+  }
   i {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100px;
     height: 100px;
+    flex: 0 0 auto;
     border-radius: 50%;
     border: 4px solid #dde3ec;
   }
@@ -37,9 +38,9 @@ li{
       text-align: center;
     }
 
-    i{
-       margin: auto;
-       margin-bottom: 30px
+    i {
+      margin: auto;
+      margin-bottom: 30px;
     }
   }
   @media (min-width: 992px) {
@@ -49,8 +50,6 @@ li{
 
     i {
       margin-right: 30px;
-    width: 160px !important;
-
     }
   }
 }

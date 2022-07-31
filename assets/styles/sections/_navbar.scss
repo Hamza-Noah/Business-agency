@@ -6,15 +6,13 @@
       text-transform: uppercase;
     }
 
-    .nav-link.active{
+    .nav-link.active {
       color: var(--bs-primary) !important;
     }
 
     &:not(:last-child) {
       margin-right: 40px;
     }
-
-
   }
 
   @media (max-width: 991px) {
@@ -26,7 +24,8 @@
       position: absolute;
       margin-top: 50px;
       z-index: 2;
-      
+      box-shadow: 0px 6px 20px #1b8cfd14;
+
       li {
         padding-left: 20px;
         background-color: white !important;

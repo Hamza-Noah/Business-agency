@@ -20,6 +20,11 @@
     }
   }
 
+  .owl-item img {
+    width: 150px;
+    margin: auto;
+  }
+
   .owl-theme .owl-dots .owl-dot.active span {
     background-color: var(--bs-primary) !important;
   }
