@@ -101,7 +101,10 @@
     }
   }
 
-  button {
+  a {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
     width: 178px;
     height: 50px;
     margin-top: 67px;
@@ -110,5 +113,18 @@
     background-color: var(--bs-primary);
     color: #f5f5f5;
     font-weight: bolder;
+  }
+
+  a:hover{
+    color: #f5f5f5 !important;
+  }
+}
+
+.blog{
+  @media (max-width: 991px) {
+    .owl-item{
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
   }
 }

@@ -27,6 +27,10 @@
     background-color: var(--bs-primary) !important;
   }
 
+  a.link {
+    color: white !important;
+  }
+
   .play-modal {
     top: 50%;
     left: 50%;
@@ -35,13 +39,18 @@
     height: 132px;
     width: 132px;
     font-size: 2.875rem;
-
     background: #ffffff 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 10px #0000000f;
     transform: translate(-50%, -50%);
+      transition: all ease-in .3s;
     i {
       color: var(--bs-primary) !important;
     }
+  }
+
+  .play-modal:hover{
+  width: 142px;
+  height: 142px;
   }
 }
 
@@ -62,31 +71,65 @@
         display: block;
         opacity: 0.25;
       }
+    }
 
+    .owl-item:first-child img {
+      width: 249px;
     }
-  
-    .owl-item:first-child img{
-     width: 249px;
+    .owl-item:nth-child(2) img {
+      width: 206px;
     }
-    .owl-item:nth-child(2) img{
-     width: 206px;
+    .owl-item:nth-child(3) img {
+      width: 201px;
     }
-    .owl-item:nth-child(3) img{
-     width: 201px;
+    .owl-item:nth-child(4) img {
+      width: 179px;
     }
-    .owl-item:nth-child(4) img{
-     width: 179px;
+    .owl-item:nth-child(2) img {
+      width: 250px;
     }
-    .owl-item:nth-child(2) img{
-     width: 250px;
+    .owl-item:last-child img {
+      width: 214px;
     }
-    .owl-item:last-child img{
-     width: 214px;
+  }
+
+  .owl-stage-outer {
+    position: relative;
+  }
+
+  .owl-nav .owl-prev,
+  .owl-nav .owl-next {
+    height: 50px;
+    width: 50px;
+    top: 20%;
+    position: absolute;
+    background-color: white !important;
+    span {
+      font-size: 5rem;
+      color: #d0d3d6;
     }
+  }
+
+  .owl-nav .owl-prev {
+    left: -100px;
+  }
+
+  .owl-nav .owl-next {
+    right: -100px;
   }
 }
 
 .landing {
+  @media (max-width: 767px) {
+    .owl-nav .owl-prev {
+      left: -10px;
+    }
+
+    .owl-nav .owl-next {
+      right: -10px;
+    }
+  }
+
   @media (max-width: 991px) {
     .info,
     .banner {
@@ -95,6 +138,7 @@
 
     h1 {
       font-size: 2.5rem;
+      margin-bottom: 50px;
     }
     .row {
       flex-direction: column-reverse;
@@ -102,6 +146,16 @@
 
     .play-modal {
       display: none;
+    }
+
+    .owl-nav .owl-prev {
+      left: -20px;
+      transform: translateY(-40%);
+    }
+
+    .owl-nav .owl-next {
+      right: -20px;
+      transform: translateY(-50%);
     }
   }
   @media (min-width: 992px) {

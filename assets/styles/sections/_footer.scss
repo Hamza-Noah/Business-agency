@@ -10,7 +10,6 @@ footer {
     background-position: center;
     background-image: url("../images/SVG/footer.svg");
     background-size: contain;
-
   }
 
   .row {
@@ -23,10 +22,17 @@ footer {
     font-size: 1.25rem;
   }
 
+
   .info {
-    h2 {
-      color: white;
+  
+    .d-flex{
       margin-bottom: 39px;
+    }
+
+    h2 {
+      margin-left: 10px ;
+      color: white;
+      
     }
 
     p {
@@ -45,6 +51,11 @@ footer {
       font-size: 1.2rem;
       background-color: #747f92;
       color: #1e2f4f;
+      transition: all ease-in .3s;
+    }
+
+    li:hover a{
+      background-color: white;
     }
 
     li a i {
@@ -56,10 +67,12 @@ footer {
     display: block;
     color: #adb6c4 !important;
     margin-bottom: 13px;
+    transition: all ease-in .3s;
   }
 
   li:hover a {
     color: white !important;
+
   }
 
   .links-contact a {
@@ -79,17 +92,25 @@ footer {
   }
 
   .email {
+    position: relative;
     input {
       padding: 12px 0;
     }
 
-    i {
+    button{
       position: absolute;
+      top: 8px;
+      right: 40px;
+      background: transparent;
+      border: none;
+    }
+
+    i {
+      
       display: flex;
       justify-content: center;
       align-items: center;
-      top: 8px;
-      left: 80%;
+  
       border-radius: 50%;
       width: 30px;
       height: 30px;

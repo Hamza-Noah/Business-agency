@@ -17,7 +17,7 @@
 <body>
     <header>
         <!-- Start Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container">
                 <a class="navbar-brand" href="#"><img height="40px" src="assets/images/Logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -72,9 +72,10 @@
                             <h1>
                                 The Best Agency <br> For Your Creative Business
                             </h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            <p class="d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt
                                 ut labore et dolore magna aliqua.</p>
-                            <a class="text-white link" href="#">Get started</a>
+                            <a class="text-white link btn" href="#">Get started</a>
                         </div>
                     </div>
                     <div class="col-sm-12 colo-md-12 col-lg-6 position-relative">
@@ -193,7 +194,7 @@
                                 The point of using Lorem Ipsum is that it has a more-or- less normal distribution of
                                 letters.
                             </p>
-                            <a href="#">
+                            <a href="#" class="btn">
                                 MORE DETAILS
                             </a>
                         </div>
@@ -203,7 +204,7 @@
             <div class="contact d-flex justify-content-center align-items-center text-center">
                 <div class="container">
                     <h2 class="text-white mb-5">We can help you to grow up your online business</h2>
-                    <button class="bg-white">CONTACT NOW</button>
+                    <a href="#" class="bg-white btn">CONTACT NOW</a>
                 </div>
             </div>
         </section>
@@ -257,21 +258,21 @@
                         <i><img src="assets/images/SVG/stat1.svg" alt=""></i>
                         <div>
                             <div class="num plus" data-goal="4500">0</div>
-                            <p>Award Winner</p>
+                            <p>Complete Project</p>
                         </div>
                     </li>
                     <li class="col-md-6 col-lg-3">
                         <i><img src="assets/images/SVG/stat2.svg" alt=""></i>
                         <div>
                             <div class="num" data-goal="110">0</div>
-                            <p>Available Country</p>
+                            <p>Award Winner</p>
                         </div>
                     </li>
                     <li class="col-md-6 col-lg-3">
                         <i><img src="assets/images/SVG/stat3.svg" alt=""></i>
                         <div>
                             <div class="num plus" data-goal="300">0</div>
-                            <p>Complete Project</p>
+                            <p>Available Country</p>
                         </div>
                     </li>
                     <li class="col-md-6 col-lg-3">
@@ -402,7 +403,7 @@
                             </div>
                         </div>
                         <div class="tab-pane tab-3 fade " id="contact" role="tabpanel" aria-labelledby="home-tab">
-                             <div class="tab">
+                            <div class="tab">
                                 <div class="img img-1">
                                     <img class="img-fluid" src="assets/images/work1.jpg" alt="">
                                 </div>
@@ -608,7 +609,7 @@
                         </div>
                     </div>
                 </div>
-                <button class="d-block mx-auto">View More</button>
+                <a href="#" class="d-block mx-auto btn">View More</a>
             </div>
         </section>
         <!-- End Blog -->
@@ -813,9 +814,9 @@
                 </div>
                 <form id="form" action="">
                     <div class="container">
-                        <div class="row">
+                        <div class="row p-0 m-0">
                             <div class="col-lg-2"></div>
-                            <div class="row col-lg-8">
+                            <div class="row col-sm-12 col-md-12 col-lg-8">
                                 <div class="col-lg-6">
                                     <div class="form-group">
                                         <label for="">Name</label>
@@ -825,8 +826,8 @@
                                 <div class="col-lg-6 d-flex align-items-center">
                                     <div class="input-group">
                                         <label class="position-absolute" for="">Email</label>
-                                        <input type="text" class="form-control" placeholder="Username"
-                                        aria-label="Username" aria-describedby="basic-addon1">
+                                        <input type="text" class="form-control" id="email" placeholder="Username"
+                                            aria-label="Username" aria-describedby="basic-addon1">
                                         <span class="input-group-text" id="basic-addon1">@</span>
                                         <div class="invalid-feedback" id="email-message">Plaese fill out a
                                             valid Emalil
@@ -847,7 +848,7 @@
                                 </div>
                                 <div class="col-12">
                                     <div class="d-flex justify-content-center">
-                                        <button type="submit">SEND</button>
+                                        <button type="submit" class="btn">SEND</button>
                                     </div>
                                 </div>
                             </div>
@@ -865,10 +866,11 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="info">
-                        <div class="logo">
-                            <h2>Logo</h2>
+                        <div class="logo d-flex align-items-center">
+                            <img src="assets/images/SVG/footer-logo.svg" alt="">
+                            <h2 >Logo</h2>
                         </div>
-                        <p class="d-sm-none d-lg-block">
+                        <p class="d-none d-lg-block">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
                             has
                             been the industry's standard dummy text ever since the 1500s...
@@ -932,7 +934,9 @@
                         </ul>
                         <div class="position-relative email">
                             <input class="form-control mt-4 px-2" placeholder="Your email address" type="email">
-                            <i class="position-absolute fa-solid fa-arrow-right-long"></i>
+                            <button>
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </button>
                         </div>
                     </div>
                 </div>
