@@ -122,6 +122,11 @@
 
 .blog{
   @media (max-width: 991px) {
+    .container{
+      padding-left: 0;
+      padding-right: 0;
+    }
+
     .owl-item{
       padding-left: 0 !important;
       padding-right: 0 !important;
